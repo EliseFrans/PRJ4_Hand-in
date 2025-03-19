@@ -12,14 +12,41 @@
     <!-- -->
 
     <!-- Links to our additional CSS styles -->
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css2/styles4.css">
 
     <title>Elise Frans's Resumé</title> 
-  </head>
+     <style>
+    .typewriter {
+      font-size: 2em;
+      font-family: 'Courier', monospace;
+      display: inline-block;
+      border-right: 0.15em solid black;
+      white-space: nowrap;
+      overflow: hidden;
+      animation: typing 3s steps(30) 1s 1 normal both, blink 0.75s step-end infinite;
+    }
+    
+    @keyframes typing {
+      from {
+        width: 0;
+      }
+      to {
+        width: 100%;
+      }
+    }
+    
+    @keyframes blink {
+      50% {
+        border-color: transparent;
+      }
+    }
+  </style>
+</head>
   <!-- End of the head -->
 
   <!-- Start of the body, which contains everything visible on the page -->
   <body class="d-flex flex-column h-100 justify-content-between">
+      <div class="typewriter">Hello, welcome to my portfolio!</div>
 
     <!--
       We use a Bootstrap container to align contents.
@@ -50,7 +77,7 @@
         -->
         <div class="col-12 col-sm-8 col-md-9 col-lg-10 my-3 header-content">
           <h1 class="fw-bolder">Elise Frans</h1>
-          <h5 class="fst-italic tagline">Your expert in web development and design.</h5>
+          <h4 class="fst-italic tagline">Your expert in web development and design.</h4>
         </div>
       </header>
 
@@ -188,21 +215,9 @@ to be delivered</li>
                 </a>
               </li>
               <li class="contact-item">
-                <a class="d-flex align-items-center" href="https://facebook.com/" target="_blank">
-                  <img class="contact-icon" src="images/icons/facebook.svg" alt="Facebook">
-                  Facebook Profile
-                </a>
-              </li>
-              <li class="contact-item">
                 <a class="d-flex align-items-center" href="https://github.com/EliseFrans" target="_blank">
                   <img class="contact-icon" src="images/icons/github.svg" alt="LinkedIn">
                   GitHub Profile
-                </a>
-              </li>
-              <li class="contact-item">
-                <a class="d-flex align-items-center" href="https://www.tiktok.com/@bredauniversityas" target="_blank">
-                  <img class="contact-icon" src="images/icons/tiktok.svg" alt="Mobile Phone">
-                  TikTok @bredauniversityas
                 </a>
               </li>
             </ul>
@@ -216,33 +231,33 @@ to be delivered</li>
             <ul class="language-list list-unstyled">
               <li class="language-item d-flex mb-1">
                 <h5 class="language-name w-50">Dutch</h5>
-                <div class="language-level w-50 border border-info border-2 position-relative">
+                <div class="language-level w-50 border border-primary border-2 position-relative">
                   <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
-                  <div class="language-progress position-absolute bg-warning h-100 w-100"></div>
+                  <div class="language-progress position-absolute bg-succes h-100 w-100"></div>
                   <h6 class="position-absolute w-100 text-center top-0 py-1">Native</h6>
                 </div>
               </li>
               <li class="language-item d-flex mb-1">
                 <h5 class="language-name w-50">English</h5>
-                <div class="language-level w-50 border border-info border-2 position-relative">
+                <div class="language-level w-50 border border-primary border-2 position-relative">
                   <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
-                  <div class="language-progress position-absolute bg-warning h-100 w-75"></div>
+                  <div class="language-progress position-absolute bg-succes h-100 w-75"></div>
                   <h6 class="position-absolute w-100 text-center top-0 py-1">Full proficiency</h6>
                 </div>
               </li>
               <li class="language-item d-flex mb-1">
-                <h5 class="language-name w-50">Spanish</h5>
-                <div class="language-level w-50 border border-info border-2 position-relative">
+                <h5 class="language-name w-50">France</h5>
+                <div class="language-level w-50 border border-primary border-2 position-relative">
                   <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
-                  <div class="language-progress position-absolute bg-warning h-100 w-50"></div>
-                  <h6 class="position-absolute w-100 text-center top-0 py-1">Advanced</h6>
+                  <div class="language-progress position-absolute bg-succes h-100 w-25"></div>
+                  <h6 class="position-absolute w-100 text-center top-0 py-1">Beginner</h6>
                 </div>
               </li>
               <li class="language-item d-flex mb-1">
-                <h5 class="language-name w-50">German</h5>
-                <div class="language-level w-50 border border-info border-2 position-relative">
+                <h5 class="language-name w-50">Korean</h5>
+                <div class="language-level w-50 border border-primary border-2 position-relative">
                   <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
-                  <div class="language-progress position-absolute bg-warning h-100 w-25"></div>
+                  <div class="language-progress position-absolute bg-succes h-100 w-25"></div>
                   <h6 class="position-absolute w-100 text-center top-0 py-1">Beginner</h6>
                 </div>
               </li>
@@ -254,9 +269,11 @@ to be delivered</li>
           <section class="my-3 aside-section">
             <h2>Other Skills</h2>
             <ul class="skill-list list-unstyled">
-              <li class="skill-item">Team player</li>
-              <li class="skill-item">Microsoft Office Power User</li>
-              <li class="skill-item">Driving Licence</li>
+              <li class="skill-item">Adobe photoshop</li>
+              <li class="skill-item">Stress resistant</li>
+              <li class="skill-item">Editing</li>
+              <li class="skill-item">Creative</li>
+              <li class="skill-item">Coding</li>
             </ul>
           </section>
 
@@ -268,6 +285,7 @@ to be delivered</li>
               <li class="skill-item">Baking</li>
               <li class="skill-item">Drawing</li>
               <li class="skill-item">Martial arts</li>
+              <li class="skill-item">Music</li>
             </ul>
           </section>
 

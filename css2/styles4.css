@@ -1,28 +1,48 @@
 /* Use this file to use your own styles*/
 
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
 
 /* Styles for the body */
 
 body {
-	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
 	color: #202030;
 	background-color: #f8f8fc;
 }
 
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+  transform: scale(1.1);
+}
+
+
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #e0f0ff;
+    background-color: #86abda;
+    color: white;
+    font-weight: 1000; /* Or use 700 for a stronger effect */
 }
 
 .resume-main {
-	background-color: #fffefc;
+	background-color: #fcfdfe;
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: #d5e2f2;
 }
 
 /* Styles for lists in the document */
@@ -36,12 +56,14 @@ body {
 }
 
 .biography-details li::before {
-	color: #EE7623;
+	color: #86abda;
 }
 
 .biography-details li, .skill-list li {
 	padding-left: 1em;
 }
+
+
 
 /* Styles for contact icons */
 
