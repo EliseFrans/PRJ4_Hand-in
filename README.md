@@ -4,7 +4,7 @@ A template to create a CV while learning HTML and CSS
 
 ## See it live!
 
-Click on https://elisefrans.github.io/PRJ4_Hand-in/ to see what the résumé looks like when published!
+Click on https://elisefrans.github.io/prj4_hand-in/ to see what the résumé looks like when published!
 
  **Please replace the address above by your CV's own address, since this is a link to the original template!**
 
