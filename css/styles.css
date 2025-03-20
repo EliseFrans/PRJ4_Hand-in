@@ -39,6 +39,7 @@ a:hover {
 	background-color: #fcfdfe;
 }
 
+
 .resume-aside {
 	background-color: #d5e2f2;
 }
@@ -54,6 +55,10 @@ a:hover {
 
 .biography-details li::before {
 	color: #86abda;
+}
+
+.skill-list li::before {
+	color: #347bda;
 }
 
 .biography-details li, .skill-list li {
