@@ -10,24 +10,22 @@ body {
   font-weight: 400;
   font-style: normal;
 	color: #202030;
-	background-color: #f8f8fc;
+	background-color: #f8eaf1;
 }
 
-button {
-  padding: 10px 20px;
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s, transform 0.3s;
+a:hover {
+  text-decoration: underline;
+  color: #007bff; /* Bootstrap primary color */
 }
 
-button:hover {
-  background-color: #45a049;
-  transform: scale(1.1);
+
+.card-body-1 {
+  background-color: #eef3fc; /* Blue for card 1 */
 }
 
+.card-body-2 {
+  background-color: #eef3fc; /* Red for card 2 */
+}
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
@@ -44,7 +42,6 @@ button:hover {
 .resume-aside {
 	background-color: #d5e2f2;
 }
-
 /* Styles for lists in the document */
 
 .biography-details li::before, .skill-list li::before {
@@ -63,6 +60,14 @@ button:hover {
 	padding-left: 1em;
 }
 
+.language-level {
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.language-progress {
+  border-radius: 25px;
+}
 
 
 /* Styles for contact icons */
